@@ -1,0 +1,232 @@
+/*-=Small screens=-*/
+@media only screen and (max-width: 40.0625em) {
+
+  .about {
+    position: inherit;
+    padding: 0 0 90px 0;
+  }
+  #video-on-bg {
+    display: none;
+  }
+  /* TOP BAR Mobile STYLING */
+  .container-contact span {
+    font-size: .7rem;
+  }
+  .top-bar {
+    height: auto;
+    /*background: #1e1e1e;*/
+    /* change background color if you need */
+    background: transparent;
+  }
+  .top-bar-section ul li{
+    background: transparent;
+  }
+  .top-bar-section ul li > a {
+    color: white;
+    /* change color of text if you need */
+    font-size: 13px;
+    /*background: #333333;*/
+    /* change background color if you need */
+    background: transparent;
+  }
+  .top-bar-section ul li:hover > a {
+    background: #111 !important;
+    /* change background color if you need */
+  }
+  .top-bar-section ul li.current-menu-item > a:not(.button), .top-bar-section ul li.current-page-ancestor > a:not(.button) {
+    background: #777 !important;
+    /* change background color of current menu item if you need */
+  }
+  .top-bar-section .menu {
+    display: none;
+  }
+  .top-bar-section .dropdown {
+    clip: auto;
+    height: auto;
+    display: none;
+    width: 100%;
+    position: static !important;
+  }
+  .top-bar-section .dropdown > li a {
+    padding-left: 30px;
+  }
+  .top-bar-section .has-dropdown > a:after {
+    display: none;
+  }
+  .top-bar-section ul li.has-dropdown a.dropdown-toggle {
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 44px;
+    right: 0;
+    top: 0;
+    color: #fff;
+    z-index: 100;
+    text-align: center;
+  }
+  .top-bar-section ul li.has-dropdown a.dropdown-toggle i.fa {
+    font-size: 13px;
+    line-height: 1;
+    height: 13px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .top-bar.expanded .opnd > .dropdown-toggle i.fa {
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  .top-bar.expanded .title-area {
+    background: transparent;
+  }
+  .top-bar.expanded .toggle-topbar a {
+    color: #fff;
+  }
+  .top-bar.expanded .toggle-topbar a span {
+    box-shadow: none !important;
+  }
+  .top-bar.expanded .toggle-topbar a span:after {
+    box-shadow: 0 0 0 1px #fff,0 7px 0 1px #fff,0 14px 0 1px #fff;
+  }
+  .modal-content{
+    width: 100%;
+    left: 0;
+  }
+  .footer-background li:first-child{
+    padding-left: 16px; 
+  }
+  .footer-background ul{
+    margin-left: 0;
+  }
+  .suggest{
+    padding: 0;
+  }
+  .suggest img{
+   /*height: 100px;*/
+  }
+  .footer-background li{
+    padding: 0 16px;
+  }
+  .container-contact{
+    margin: 10px 0;
+  }
+  .info{
+    text-align: center;
+    margin-left: 0;  
+  }
+  .ih-item.circle{
+    margin-left:  26%;
+  } 
+  .service {
+    width: 80%;
+    margin: 26px auto;
+  }
+  #home-slider .slick-slide{
+    height: 350px;
+  }
+
+}
+/* max-width 640px and lower. Use this for mobiles only */
+/*-=Medium screens=-*/
+@media only screen and (min-width: 40.063em) {
+  /* TOP BAR STYLING */
+  .top-bar {
+    background: transparent;
+    float: right;
+  }
+
+  .top-bar-section {
+    /* Dropdown Styling*/
+  }
+  .top-bar-section ul {
+    background: transparent;
+  }
+  .top-bar-section ul li {
+    background: transparent;
+  }
+  .top-bar-section li:not(.has-form) > a:not(.button),
+  .top-bar-section li.has-dropdown > a:not(.button) {
+    /* Regular menu item style */
+    color: #FFF;
+    background: transparent;
+    font-family: "PT Sans","Open Sans", sans-serif;
+    padding: 0 15px;
+    text-transform: uppercase;
+  }
+  .top-bar-section li:not(.has-form) > a:not(.button):hover,
+  .top-bar-section li.has-dropdown > a:not(.button):hover {
+    color: #FFF;
+    background: #000;
+    border-bottom: 3px solid #fdbb2d;
+  }
+  .top-bar-section li:not(.has-form) > a:not(.button):after,
+  .top-bar-section li.has-dropdown > a:not(.button):after {
+    display: none;
+  }
+  .top-bar-section li.current-menu-item > a:not(.button),
+  .top-bar-section li.current-page-ancestor > a:not(.button) {
+    /* Style of Current page and Ancestor page */
+    color: #FFF;
+    background: #000;
+    border-bottom: 3px solid #fdbb2d;
+  }
+  .top-bar-section ul li:hover:not(.has-form) > a {
+    /* Parent link style on dropdown hover */
+    background: green;
+    color: #FFF;
+  }
+  .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
+    /* Regular link in dropdown */
+    color: white;
+    background: olive;
+  }
+  .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
+    /* Dropdown link on hover */
+    color: grey;
+    background: bisque;
+  }
+  .top-bar-section .has-dropdown > .dropdown li .dropdrown_menu li a {
+    /* Dropdown in dropdown */
+    background: blue;
+  }
+  .top-bar-section .has-dropdown > .dropdown li .dropdrown_menu li:hover a {
+    color: white;
+    text-decoration: underline;
+    background: red;
+  }
+
+  /* Align Menu to the right
+      .top-bar-section { float:right; } */
+  /* Align Menu to the center
+      .top-bar-section { float:none; text-align: center; }
+      .top-bar-section ul{display: inline-block;} */
+  .has-dropdown .dropdown-toggle {
+    display: none;
+  }
+}
+/* min-width 641px */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+  .modal-content{
+    width: 50%;
+    left: 25%;
+  }
+}
+
+/*-=Large screens=-*/
+@media only screen and (min-width: 64.063em) {
+  /* min-width 1025px, large screens */
+}
+
+/*-=Large screens=-*/
+@media only screen and (min-width: 85.376em) {
+  /* min-width 1366px, large screens */
+
+}
